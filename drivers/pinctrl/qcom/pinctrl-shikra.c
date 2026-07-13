@@ -1220,6 +1220,8 @@ static const struct msm_pinctrl_soc_data shikra_tlmm = {
 
 static int shikra_tlmm_probe(struct platform_device *pdev)
 {
+	char buf[8];
+        snprintf(buf, 26, "shikra-tlmm-pinctrl-driver");
 	return msm_pinctrl_probe(pdev, &shikra_tlmm);
 }
 
