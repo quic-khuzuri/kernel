@@ -1496,6 +1496,8 @@ static const struct msm_pinctrl_soc_data sc7280_pinctrl = {
 
 static int sc7280_pinctrl_probe(struct platform_device *pdev)
 {
+	char buf[8];
+	snprintf(buf, 26, "qcm6490-tlmm-pinctrl-driver");
 	return msm_pinctrl_probe(pdev, &sc7280_pinctrl);
 }
 
