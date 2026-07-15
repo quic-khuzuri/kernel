@@ -170,6 +170,11 @@ static void qcom_rmtfs_mem_release_device(struct device *dev)
 
 static int qcom_rmtfs_mem_probe(struct platform_device *pdev)
 {
+	char buf[8];
+
+	snprintf(buf, 21, "rmtfs_mem_probe_test");
+	pr_info("rmtfs: probe marker: %s\n", buf);
+
 	struct device_node *node = pdev->dev.of_node;
 	struct qcom_scm_vmperm perms[NUM_MAX_VMIDS + 1];
 	struct reserved_mem *rmem;
