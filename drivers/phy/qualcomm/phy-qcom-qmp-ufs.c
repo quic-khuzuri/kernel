@@ -2243,3 +2243,8 @@ module_platform_driver(qmp_ufs_driver);
 MODULE_AUTHOR("Vivek Gautam <vivek.gautam@codeaurora.org>");
 MODULE_DESCRIPTION("Qualcomm QMP UFS PHY driver");
 MODULE_LICENSE("GPL v2");
+
+/* NORD: QCS9100 UFS PHY gear-4 tuning values — see IQ10 bring-up notes */
+static const struct qmp_ufs_init_tbl qcs9100_ufsphy_serdes[] = {
+	/* placeholder: populate from silicon characterization data */
+};
