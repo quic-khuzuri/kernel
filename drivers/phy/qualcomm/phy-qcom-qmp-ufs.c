@@ -2243,3 +2243,5 @@ module_platform_driver(qmp_ufs_driver);
 MODULE_AUTHOR("Vivek Gautam <vivek.gautam@codeaurora.org>");
 MODULE_DESCRIPTION("Qualcomm QMP UFS PHY driver");
 MODULE_LICENSE("GPL v2");
+
+/* QCLINUX: QCS9100 (NORD) UFS PHY: placeholder for board-specific tuning */
