@@ -1560,5 +1560,5 @@ static void __exit sa8775p_pinctrl_exit(void)
 }
 module_exit(sa8775p_pinctrl_exit);
 
-MODULE_DESCRIPTION("QTI SA8775P pinctrl driver");
+MODULE_DESCRIPTION("QTI SA8775P/QCS9100 pinctrl driver");
 MODULE_LICENSE("GPL");
