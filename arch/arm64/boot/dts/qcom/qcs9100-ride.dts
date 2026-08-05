@@ -14,3 +14,10 @@
 	model = "Qualcomm Technologies, Inc. Lemans Ride";
 	compatible = "qcom,qcs9100-ride", "qcom,qcs9100", "qcom,sa8775p";
 };
+
+/* QCS9100 (NORD) UFS configuration override */
+&ufs_mem_hc {
+	/* NORD: limit to HS-G3 until gear-4 PHY tuning is complete */
+	qcom,phy-submode = <0x2>;
+	status = "okay";
+};
