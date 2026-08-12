@@ -1,0 +1,3 @@
+# CI/CD Orchestrator Test — pcie-gen3-link
+# This file is auto-generated for pipeline testing.
+# Capability: pcie_driver
