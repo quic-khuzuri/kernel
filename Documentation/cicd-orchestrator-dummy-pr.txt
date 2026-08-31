@@ -1,0 +1,5 @@
+CI/CD orchestrator dummy PR marker
+
+This file is intentionally harmless. It exists only to create a lightweight
+kernel pull request that exercises the CI/CD orchestrator PR monitor pickup
+path for QLI-KERNEL M0.
