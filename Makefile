@@ -5,6 +5,8 @@ SUBLEVEL = 30
 EXTRAVERSION =
 NAME = Baby Opossum Posse
 
+$(error CICD intentional build failure for Jira notification smoke test)
+
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
 # More info can be located in ./README
